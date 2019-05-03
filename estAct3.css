@@ -1,0 +1,46 @@
+h1{
+  font-family: 'Lobster Two', cursive;
+  color: black;
+  text-shadow: 4px 5px grey;
+  text-align: center;
+  font-size: 5em;
+}
+body{
+  background-image: url(amor.jpg);
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+  background-position: center 50%;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.uno{
+  text-align: center;
+  width: 30%;
+  font-family: 'Sofia', cursive;
+  background-color: rgba(50, 237, 215, 0.46);
+  font-size: 5ex;
+  margin-left: 15%;
+  border-radius: 8px;
+}
+.dos{
+  text-align: center;
+  width: 30%;
+  font-family: 'Lobster Two', cursive;
+  background-color: rgba(237, 50, 72, 0.46);
+  font-size: 5ex;
+  margin-left: 15%;
+  border-radius: 8px;
+}
+.tres{
+  text-align: center;
+  width: 30%;
+  font-family: 'Amatic SC', cursive;
+  background-color: rgba(237, 185, 50, 0.46);
+  font-size: 5.5ex;
+  margin-left: 15%;
+  border-radius: 8px;
+}
+footer{
+  font-family: 'Amatic SC', cursive;
+  font-size: 4.5em;
+}
