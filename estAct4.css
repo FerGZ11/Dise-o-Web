@@ -1,0 +1,59 @@
+body{
+  background-color: rgb(139, 170, 210);
+}
+h1{
+  font-family: 'Lobster Two', cursive;
+  color: black;
+  text-shadow: 4px 5px grey;
+  text-align: center;
+  font-size: 5em;
+}
+.uno{
+  width: 70%;
+  margin-left: 13%;
+  padding: 2%;
+  font-family: 'Sofia', cursive;
+  background-color: rgba(50, 237, 215, 0.46);
+  font-size: 3ex;
+  border-radius: 8px;
+}
+.uno1{
+  width: 25%;
+  float: right;
+  border-radius: 8px;
+}
+.dos{
+  width: 70%;
+  margin-left: 13%;
+  padding: 2%;
+  font-family: 'Lobster Two', cursive;
+  background-color: rgba(237, 50, 72, 0.46);
+  font-size: 3ex;
+  border-radius: 8px;
+}
+.dos1{
+  width: 20%;
+  margin-bottom: 3%;
+  margin-right: 30%;
+  float: left;
+  border-radius: 8px;
+}
+.tres{
+  width: 70%;
+  margin-left: 13%;
+  padding: 2%;
+  font-family: 'Amatic SC', cursive;
+  background-color: rgba(237, 185, 50, 0.46);
+  font-size: 3.5ex;
+  border-radius: 8px;
+}
+.tres1{
+  width: 30%;
+  float: right;
+  border-radius: 8px;
+}
+footer{
+  font-family: 'Amatic SC', cursive;
+  font-size: 4.5em;
+  text-align: center;
+}
