@@ -1,0 +1,41 @@
+/* *{margin:0;padding:0}
+html{overflow-y:scroll}
+body{background:#fff;font-size:13px;color:#666;font-family:Arial,helvetica,sans-serif}
+ol,ul{list-style:none;margin:0}
+ul li{margin:0;padding:0}
+h1{margin-bottom:10px;color:#111}
+a,img{outline:none;border:none;color:#000;font-weight:bold;text-transform:uppercase}
+p{margin:0 0 10px;line-height:1.4em;font-size:1.2em}
+img{display:block;margin-bottom:10px}
+aside{font-style:italic;font-size:.9em}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block} */
+@media screen and (max-width:420px) {
+  *{margin:1%;padding:0}
+  html{overflow-y:scroll}
+  body{background:#fff;font-size:13px;color:#666;font-family:Arial,helvetica,sans-serif}
+  ol,ul{list-style:none;margin-right: 2%;}
+  li{background-color: lightgrey; margin: 1px;text-align: center;font-size: 3ex;}
+  h1{margin: 4%;}
+  img{width: 98%;}
+  a{color: white;text-decoration: none;}
+  a,img{outline:none;border:none;color:#000;font-weight:bold;text-transform:uppercase}
+  p{margin:0 0 10px;line-height:1.4em;font-size:1.2em;text-align: justify;}
+  video{width: 100%;}
+  img{display:block;margin-bottom:10px}
+  aside{font-style:italic;font-size:.9em}
+  article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+}
+@media screen and (min-width:420px) {
+  *{margin:1%;padding:0}
+  html{overflow-y:scroll}
+  body{background:#fff;font-size:13px;color:#666;font-family:Arial,helvetica,sans-serif}
+  img{width: 100%;margin-top: 2%;}
+  ul{width: 45%;position: absolute; top: 4%; left: 55%;}
+  li{display: inline;font-size: 1.6em;}
+  section{float: left;width: 53%;text-align: justify;font-size: 1.2em;}
+  /* div#prin{width: 53%;text-align: justify;font-size: 1.2em;} */
+  h1{margin: 4%;font-size: 2.3em;}
+  video{width: 100%;}
+  aside{width: 30%;float: right;margin-right: 6%;margin-top: 2%;text-align: justify;font-size: 1.2em;}
+  a{text-decoration: none;color: black;font-weight: bold;}
+}
