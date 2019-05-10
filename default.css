@@ -1,0 +1,74 @@
+body{
+margin: 0;
+}
+div.cuadro{
+width: 40px;
+height: 40px;
+margin: 30px;
+text-align: center;
+border: 3px solid green;
+box-sizing: content-box;
+}
+div.cuadro:nth-child(1){
+background-color: greenyellow;
+color: green;
+}
+div.cuadro:nth-child(1):hover{
+  transition: background-color 2s;
+  background-color: blue;
+}
+div.cuadro:nth-child(2){
+background-color: indianred;
+color: red;
+border-color: red;
+}
+div.cuadro:nth-child(2):hover{
+transition: border-color 2s;
+border-color: black;
+}
+div.cuadro:nth-child(3){
+background-color: violet;
+color: purple;
+border-color: purple;
+}
+div.cuadro:nth-child(3):hover{
+transition: border-radius 4s;
+border-radius: 100%;
+}
+div.cuadro:nth-child(4){
+background-color: lightgoldenrodyellow;
+color: yellow;
+border-color: yellow;
+}
+div.cuadro:nth-child(4):hover{
+transition: transform 2s;
+transform: rotateZ(90deg);
+}
+div.cuadro:nth-child(5){
+background-color: #f7c974;
+color: orange;
+border-color: orange;
+}
+div.cuadro:nth-child(5):hover{
+transition: all 3s;
+padding-right: 5%;
+padding-left: 5%;
+}
+div.cuadro:nth-child(6){
+background-color: greenyellow;
+color: green;
+}
+div.cuadro:nth-child(6):hover{
+transition: all 3s;
+padding-top: 5%;
+padding-bottom: 5%;
+}
+div.cuadro:nth-child(7){
+background-color: violet;
+color: purple;
+border-color: purple;
+}
+div.cuadro:nth-child(7):hover{
+transition: box-shadow 2s;
+box-shadow: 5px 5px 3px 3px pink;
+}
