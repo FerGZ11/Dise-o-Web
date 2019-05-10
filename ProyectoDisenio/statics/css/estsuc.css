@@ -1,0 +1,90 @@
+body{
+  font-family: 'Raleway', sans-serif;
+  background-color: #D38611;
+}
+h1{
+  margin: 2%;
+  font-size: 4em;
+}
+div{
+  width: 80%;
+  height: 600px;
+  margin-left: 10%;
+  margin-top: 5%;
+  padding-top: .1%;
+  background-color: #FFE1A8;
+  border-radius: 8px;
+  text-align: center;
+}
+h2{
+  font-size: 3em;
+}
+a{
+	border-radius: 7px;
+	text-decoration: none;
+	text-shadow: 0 2px 0 rgba(255,255,255,0.3);
+	box-shadow: 0 3px 3px rgba(0,0,0,0.3);
+	color: inherit;
+	font-size: 2.6em;
+	background-color: #D38611;
+}
+a button{
+	float: right;
+  margin-right: 8%;
+  margin-bottom: 3%;
+  margin-top: 1%;
+  padding: 5px;
+  font-family: 'Montserrat';
+  font-size: 50px;
+  text-align: center;
+  font-size:35px;
+  width:20%;
+  background-color:#D38611;
+  border:1px solid #b17315;
+  border-radius:25px;
+  box-shadow: 5px 10px #bd780e;
+}
+button:hover{
+	cursor:pointer;
+}
+.btna{
+  padding: .7% 170px;
+}
+.btnb{
+  padding: .7% 205px;;
+}
+.btnc{
+  padding: .7% 183px;
+}
+.btnd{
+  padding: .7% 167px;
+}
+.btne{
+  padding: .7% 153px;
+}
+.btnf{
+  padding: .7% 102px;
+}
+.btng{
+  padding: .7% 105px;
+}
+.btnh{
+  padding: .7% 97px;
+}
+.btni{
+  padding: .7% 130px;
+}
+.btnj{
+  padding: .7% 77px;
+}
+.btnk{
+  padding: .7% 140px;
+}
+.btnl{
+  padding: .7% 55px;
+}
+.sal{
+  margin-left: 75%;
+  padding: .7% 50px;
+  background-color: #FFE1A8;
+}

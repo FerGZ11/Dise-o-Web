@@ -1,0 +1,55 @@
+body{
+	background-color:#D38611;
+	padding: 4%;
+	margin-top:-50px;
+}
+div{
+ font-family: 'Noto Serif SC';
+ font-size:20px;
+ text-align: justify;
+}
+img{
+	width: 400px;
+	height: auto;
+}
+h1{
+	text-align: center;
+	width: 700px;
+	border: 9px solid #461E1E;
+	font-size:50px;
+}
+a button{
+  float: right;
+  margin-right: 8%;
+  margin-bottom: 3%;
+  margin-top: 1%;
+  padding: 5px;
+  font-family: 'Montserrat';
+  font-size: 50px;
+  text-align: center;
+  font-size:140%;
+  width:20%;
+  background-color:#D38611;
+  border:1px solid #b17315;
+  border-radius:25px;
+  box-shadow: 5px 10px #bd780e;
+}
+button:hover{
+	cursor:pointer;
+}
+img{
+	position:absolute;
+	top:60px;
+}
+.a{
+  color: Black;
+  float:left;
+  width:700px;
+  height:auto;
+}
+.b{
+  color:Black;
+  float:right;
+  width:400px;
+  height:auto;
+}
