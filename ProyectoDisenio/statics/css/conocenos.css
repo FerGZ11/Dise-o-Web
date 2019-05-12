@@ -1,55 +1,121 @@
 body{
 	background-color:#D38611;
 	padding: 4%;
-	margin-top:-50px;
 }
 div{
- font-family: 'Noto Serif SC';
- font-size:20px;
- text-align: justify;
+		font-family: 'Noto Serif SC';
+		font-size:20px;
+		text-align: justify;
+	}
+@media screen and (min-width: 414px) {
+	body{margin-top:-40px;}
+	h1{
+		text-align: center;
+		width: 400;
+		border: 9px solid #461E1E;
+		font-size:50px;
+		animation: cambia 3s infinite linear;
+	}
+	div.imagen{
+		text-align: center;
+		background-image: url( ../images/pizzac1.png );
+		background-repeat:no-repeat;
+		width:350px;
+		height:400px;
+		animation:imagen 20s infinite linear;
+		transition: background-color 3s;
+	}
+	div.imagen:hover{
+		opacity:0.7;
+	}
+	p{text-align:justify;}
+	button{
+		float:right;
+		margin-right: 20%;
+		margin-bottom: 10%;
+		margin-top: -5%;
+		padding: 5px;
+		font-family: 'Montserrat';
+		font-size: 50px;
+		text-align: center;
+		width:auto;
+		background-color:#D38611;
+		border:1px solid #b17315;
+		border-radius:25px;
+		box-shadow: 5px 10px #bd780e;
+		transition: background-color 3s;
+	}
+	button:hover{
+		cursor:pointer;
+		background-color:pink;
+	}
+@media screen and (min-width: 900px) {
+	body{margin-top:-50px;}
+	h1{
+		text-align: center;
+		width: 700px;
+		border: 9px solid #461E1E;
+		font-size:50px;
+	}
+	button{
+		float: right;
+		margin-right: 8%;
+		margin-bottom: 3%;
+		margin-top: 1%;
+		padding: 5px;
+		font-family: 'Montserrat';
+		font-size: 50px;
+		text-align: center;
+		font-size:140%;
+		width:20%;
+		background-color:#D38611;
+		border:1px solid #b17315;
+		border-radius:25px;
+		box-shadow: 5px 10px #bd780e;
+		transition: background-color 3s;
+	}
+	button:hover{
+		cursor:pointer;
+		background-color:pink;
+	}
+	.a{
+		color: Black;
+		float:left;
+		width:700px;
+		height:auto;
+	}
+	div.imagen{
+		float:right;
+		transition: background-color 3s;
+		text-align:center;
+		animation: cambia 3s infinite linear;
+		background-image: url( ../images/pizzac1.png );
+		background-repeat:no-repeat;
+		width:400px;
+		height:350px;
+		animation:imagen 20s infinite linear;
+	}
+	div.imagen:hover{
+		opacity:0.7;
+	}
 }
-img{
-	width: 400px;
-	height: auto;
+@keyframes cambia {
+	23%{background-color:#E6CA62;}
+	48%{background-color:#E7A454;}
 }
-h1{
-	text-align: center;
-	width: 700px;
-	border: 9px solid #461E1E;
-	font-size:50px;
+@keyframes imagen {
+	25%{
+		background-image: url( ../images/pizzac2.png );
+		}
+	75%{background-image: url( ../images/pizzac3.png );}
 }
-a button{
-  float: right;
-  margin-right: 8%;
-  margin-bottom: 3%;
-  margin-top: 1%;
-  padding: 5px;
-  font-family: 'Montserrat';
-  font-size: 50px;
+#limpiar{
+	clear:both;
+	width:100%;
+}
+footer{
+  font-size:2.8ex;
   text-align: center;
-  font-size:140%;
-  width:20%;
-  background-color:#D38611;
-  border:1px solid #b17315;
-  border-radius:25px;
-  box-shadow: 5px 10px #bd780e;
-}
-button:hover{
-	cursor:pointer;
-}
-img{
-	position:absolute;
-	top:60px;
-}
-.a{
-  color: Black;
-  float:left;
-  width:700px;
-  height:auto;
-}
-.b{
-  color:Black;
-  float:right;
-  width:400px;
-  height:auto;
+  color: grey;
+  text-shadow: 2px 1px black;
 }

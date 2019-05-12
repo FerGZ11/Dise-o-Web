@@ -18,7 +18,12 @@ body{
     margin-bottom: 3%;
     margin-left: auto;
     margin-right: auto;
-
+    transition: all 3s;
+}
+.opciones:hover{
+  background-color: #1b62bb;
+  box-shadow: 8px 16px #bd780e;
+  width:40%;
 }
 pre{
   margin-bottom: 0%;
@@ -34,5 +39,17 @@ a{
   color:black;
 }
 img{
-  float: left;;
+  float: left;
+  animation: girarpizza 3s;
+}
+@keyframes girarpizza {
+  0%  {width: 100px; height: 100px;}
+  66%  {transform: rotateZ(-360deg);}
+  100%  {width: 159px; height: 139px;}
+}
+footer{
+  font-size:2.8ex;
+  text-align: center;
+  color: grey;
+  text-shadow: 2px 1px black;
 }

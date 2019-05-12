@@ -1,10 +1,12 @@
 body{
   font-family: 'Raleway', sans-serif;
   background-color: #D38611;
+  transition: all 3s;
 }
 h1{
   margin: 2%;
   font-size: 4em;
+  animation-name: suc;
 }
 div{
   width: 80%;
@@ -18,6 +20,13 @@ div{
 }
 h2{
   font-size: 3em;
+  animation-name: preg;
+}
+h1, h2{
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-direction: alternate;
+  animation-iteration-count: 2;
 }
 a{
 	border-radius: 7px;
@@ -27,6 +36,12 @@ a{
 	color: inherit;
 	font-size: 2.6em;
 	background-color: #D38611;
+}
+a:hover, button:hover{
+  background-color: #b4710b;
+  transition: all 0.3s;
+  box-shadow: 0 6px 10px rgba(0,0,0,0.3);
+  width: 25%;
 }
 a button{
 	float: right;
@@ -46,6 +61,12 @@ a button{
 }
 button:hover{
 	cursor:pointer;
+}
+footer{
+  font-size:2.8ex;
+  text-align: center;
+  color: grey;
+  text-shadow: 2px 1px black;
 }
 .btna{
   padding: .7% 170px;
@@ -87,4 +108,16 @@ button:hover{
   margin-left: 75%;
   padding: .7% 50px;
   background-color: #FFE1A8;
+}
+@keyframes preg {100%{transform: scale(1.1);}}
+@keyframes suc {100%{transform: scale(1.03);}}
+#limpiar{
+  height: 0%;
+  margin-left: 0%;
+  margin-top: 0%;
+  padding-top: 0%;
+  background-color: transparent;
+  border-radius: 0px;
+	clear:both;
+	width:100%;
 }

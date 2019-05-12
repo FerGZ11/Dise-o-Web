@@ -17,6 +17,12 @@ h1{
   height: 22%;
   display: inline-block;
   margin-bottom: 5%;
+  transition: background-color 2s;
+}
+.platillo:hover{
+  background-color: #ff5200;
+  transform: scale(1.2);
+  box-shadow: 10px 5px #bd780e;
 }
 a{
   text-decoration: none;
@@ -37,13 +43,25 @@ a button{
   border:1px solid #b17315;
   border-radius:25px;
   box-shadow: 5px 10px #bd780e;
+  transition: background-color 3s;
 }
 button:hover{
-	cursor:pointer;
+  cursor:pointer;
+  background-color:pink;
 }
 #div{
   margin-left: 5%;
 }
 img{
   width: 80%;
+}
+footer{
+  font-size:2.8ex;
+  text-align: center;
+  color: grey;
+  text-shadow: 2px 1px black;
+}
+#limpiar{
+	clear:both;
+	width:100%;
 }
