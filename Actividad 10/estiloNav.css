@@ -1,0 +1,34 @@
+body nav {
+  background-color: #c18153;
+  width: 80%;
+  height: 40px;
+}
+body nav ul {
+  list-style: none;
+}
+body nav ul li {
+  float: left;
+  font-size: 2em;
+  width: 25%;
+  cursor: pointer;
+  text-align: center;
+}
+body nav ul li > ul {
+  background-color: #cb9162;
+  margin-top: 5px;
+  display: none;
+}
+body nav ul li:hover {
+  background-color: #b65d1c;
+  color: white;
+}
+body nav ul li:hover > ul {
+  display: block;
+}
+body nav ul li > ul > li {
+  float: none;
+  width: 90%;
+  font-size: 0.7em;
+}
+
+/*# sourceMappingURL=estiloNav.css.map */
